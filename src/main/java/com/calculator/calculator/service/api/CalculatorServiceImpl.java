@@ -8,10 +8,10 @@ public class CalculatorServiceImpl implements CalculatorService {
 
     public String hello() {
 
-        return "Добро пожаловать в калькулятор";
+        return "Добро пожаловать в примитивный калькулятор";
     }
 
-    public String addition (int num1, int num2)  {
+    public String summation (int num1, int num2)  {
         int sum=num1+num2;
         return  num1 + "+"+ num2+ "="+sum;
     }

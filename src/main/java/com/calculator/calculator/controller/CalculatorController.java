@@ -21,7 +21,7 @@ public class CalculatorController {
     }
     @GetMapping (path="/plus")
     public String addition (@RequestParam("num1") int num1,@RequestParam("num2") int num2)  {
-        return calculatorService.addition(num1,num2);
+        return calculatorService.summation(num1,num2);
     }
     @GetMapping (path="/minus")
     public String substraction (@RequestParam("num1") int num1,@RequestParam("num2") int num2)  {
