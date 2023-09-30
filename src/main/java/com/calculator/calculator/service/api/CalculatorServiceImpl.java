@@ -8,7 +8,7 @@ public class CalculatorServiceImpl implements CalculatorService {
 
     public String hello() {
 
-        return "Добро пожаловать в калькулятор";
+        return "Добро пожаловать в примитивный калькулятор";
     }
 
     public String addition (int num1, int num2)  {
